@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body
+        table{
+            border-collapse: collapse;
+            background-color: white ;
+        }
+        td, th {
+            padding: 5px;
+        }
+        td{
+            color : blue;
+        }
+        th{
+            font-family: 'Patua One', cursive;
+            font-size:16px;
+            color:#fff;
+            text-align:center;
+            padding:5px;
+            background-color: orange;
+            border-color: white;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <table width="50%"  >
+        <tr>
+            <th colspan="4">SỞ THÍCH CỦA BẠN</th>
+        </tr>
+        <tr>
+            <td>Họ và tên</td>
+            <td colspan="3" ><input type="text" name="yourname" size="40" ></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td colspan="3"><input type="email" name="email"size="25"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Sở thích</td>
+            <td><input name="hobby" value="sport" type="checkbox"/>Thể Thao</td>
+            <td><input name="hobby" value="music" type="checkbox"/>Âm nhạc</td>
+            <td><input name="hobby" value="readbook" type="checkbox"/>Đọc sách</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input name="hobby" value="surfweb" type="checkbox"/>Lướt web</td>
+            <td><input name="hobby" value="playgame" type="checkbox"/>Chơi game</td>
+            <td><input name="hobby" value="firm" type="checkbox"/>Điện ảnh</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input name="hobby" value="travel" type="checkbox"/>Du lịch</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button type="submit" value="Gửi thông điệp">Gửi thông điệp</button></td>
+            <td><input type="reset" value="Nhập lại"/></td>
+            <td></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
+<hr>
+<form>
+    <table width="50%" style="background-color: bisque" >
+        <tr>
+            <th colspan="4" style="background-color: darkgrey">ĐĂNG KÝ HỌC VIÊN</th>
+        </tr>
+        <tr>
+            <td>Họ và tên</td>
+            <td colspan="3" ><input type="text" name="yourname" size="40" ></td>
+        </tr>
+        <tr>
+            <td>Ngày sinh</td>
+            <td><input name="birthday" value="date" type="number"/></td>​
+        </tr>
+        <tr>
+            <td>Giới tính</td>
+            <td><input name="gender" type="radio"/>Nam <input name="gender" type="radio"/>Nữ</td>
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td> <textarea cols="50" rowspan="4"> </textarea></td>
+        </tr>
+        <tr>
+            <td>lớp</td>
+            <td><select name="class" >
+                <option value="lớp">-Chọn Lớp-</option>​
+                <option value="lớp">1</option>​
+                <option value="lớp">2</option>​
+                <option value="lớp">3</option>​
+                <option value="lớp">4</option>​
+                <option value="lớp">5</option>​
+                <option value="lớp">6</option>​
+                <option value="lớp">7</option>​
+                <option value="lớp">8</option>​
+                <option value="lớp">9</option>​
+                <option value="lớp">10</option>​
+                <option value="lớp">11</option>​
+                <option value="lớp">12</option>​
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td ><input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td>Số điện thoại</td>
+            <td ><input type="number" name="sdt"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Đăng ký"/>
+                <input  type="reset"   value="Nhập lại"/>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

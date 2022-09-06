@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    /*.wufoo {*/
+    /*    font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;*/
+    /*}*/
+
+    .table2 {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;}
+    .table2 td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+    .table2 tr:nth-child(odd) {
+        background-color:#dddddd;
+    }
+</style>
+<body>
+<form method="get" action="simpleform.html" class = "wufoo">
+    <h2>Market Research Survey</h2>
+    <p>Please take a few moments to complete this satisfaction survey.</p>
+    <p><strong>What is your age range?</strong></p>
+
+    <select>
+        <option value = "  ">18-24</option>
+        <option>25-34</option>
+        <option>35-50</option>
+        <option>50+</option>
+    </select>
+    <p><strong>What is your age range?</strong></p>
+    <select>
+        <option value = "  ">$0-$25,000</option>
+        <option>$25,001-$50,000</option>
+        <option>$50,001-$100,000</option>
+        <option>$100,000+</option>
+    </select>
+    <p><strong>Gender Identity</strong></p>
+    <input type="radio" name="gender"/>Male <br/>
+    <input type="radio" name="gender"/> Female <br/>
+    <input type="radio" name="gender"/> Nonbinary <br/>
+    <input type="radio" name="gender"/> Other<br/>
+    <input type = "text" name="text"  size="15"/>
+    <p><strong>Which of the following products have your purchased in the last 2 months. Please check all that apply.</strong></p>
+    <input type="checkbox" name="gender"/>Product 1 <br/>
+    <input type="checkbox" name="gender"/> Product 2 <br/>
+    <input type="checkbox" name="product"/> Product 3 <br/>
+
+    <p><strong>How often would you use our new product?</strong></p>
+    <input type="radio" name="day"/>Daily <br/>
+    <input type="radio" name="day"/> Weekly <br/>
+    <input type="radio" name="day"/> Monthly <br/>
+
+    <p><strong>What would you pay for the new product?</strong></p>
+    <table>
+        <tr>
+            <td>$</td>
+            <td><input type = "text" name="text"  size="10"/></td>
+            <td>.</td>
+            <td><input type = "text" name="text"  size="3"/></td>
+        </tr>
+        <td></td>
+        <td>Dollar</td>
+        <td></td>
+        <td>Cents</td>
+    </table>
+    <p><strong>What features would you like to see in the new product.</strong></p>
+    <td> <textarea cols="50" rows="4"> </textarea></td>
+    <br>
+
+    <p><strong>What features would you like to see in the new product.</strong></p>
+    <table class="table2">
+        <tr>
+            <th></th>
+            <th>Strongly Disagree</th>
+            <th>Disagree</th>
+            <th>Agree</th>
+            <th>Strongagree</th>
+        </tr>
+        <tr>
+            <td>Our products are fairky</td>
+            <td><input type="radio" name="choice"/> 1</td>
+            <td><input type="radio" name="choice"/> 2</td>
+            <td><input type="radio" name="choice"/> 3</td>
+            <td><input type="radio" name="choice"/> 4</td>
+        </tr>
+        <tr>
+            <td>Our products are high quality</td>
+            <td><input type="radio" name="choice"/> 1</td>
+            <td><input type="radio" name="choice"/> 2</td>
+            <td><input type="radio" name="choice"/> 3</td>
+            <td><input type="radio" name="choice"/> 4</td>
+        </tr>
+        <tr>
+            <td>You would recommend our product to a friend or coworker</td>
+            <td><input type="radio" name="choice"/> 1</td>
+            <td><input type="radio" name="choice"/> 2</td>
+            <td><input type="radio" name="choice"/> 3</td>
+            <td><input type="radio" name="choice"/> 4</td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Submit"</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</form>
+</body>
+</body>
+</html>
