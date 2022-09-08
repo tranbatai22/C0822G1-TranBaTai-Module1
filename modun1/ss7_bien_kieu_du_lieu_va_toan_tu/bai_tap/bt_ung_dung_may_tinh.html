@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+            <input tyle="number" name="A" placeholder="nhap so thu nhat" id="number1">
+            <input tyle ="number" name="B" placeholder="nhap so thu hai" id="number2">
+            <button onclick="phepcong()" id="Addition">(+)</button>
+            <button onclick="pheptru()" id="Subtraction">(-)</button>
+            <button onclick="phepnhan()" id="Multiplication">(x)</button>
+            <button onclick="phepchia()" id="Division">(/)</button>
+<h1>Result</h1>
+<p id="Result:" style="color:blue"></p>
+</body>
+<script>
+    function phepchia()
+    {
+        let number2 = document.getElementById("number2").value;
+        let Result = "Result Devision : "+ number1/number2;
+        document.getElementById("Result").innerHTML=Result;
+    }
+    function phepnhan()
+    {
+        let number1 = document.getElementById("number1").value;
+        let number2 = document.getElementById("number2").value;
+        let Result = "Result Multiplication : "+ number1*number2;
+        document.getElementById("Result").innerHTML=Result;
+    }
+    function pheptru()
+    {
+        let number1 = document.getElementById("number1").value;
+        let number2 = document.getElementById("number2").value;
+        let Result = "Result Subtraction : "+ Number(number1-number2);
+        document.getElementById("Result").innerHTML= Result;
+    }
+    function phepcong()
+    {
+        let number1 = document.getElementById("number1").value;
+        let number2 = document.getElementById("number2").value;
+        let Result = "Result Addition: "+Number(Number(number1)+Number(number2)) ;
+        document.getElementById("Result").innerHTML= Result;
+    }
+</script>
+</html>

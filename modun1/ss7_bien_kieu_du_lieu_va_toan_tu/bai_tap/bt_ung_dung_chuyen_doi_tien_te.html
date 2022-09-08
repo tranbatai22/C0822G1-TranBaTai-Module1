@@ -20,25 +20,28 @@
             <option value="vnd">VND</option>
             <option value="usd" >USD</option>
         </select></td>
-        <td><button onclick="GiaTriNhap()">convert</button></td>
+        <td><button onclick="giaTriNhap()">convert</button></td>
     </tr>
 </table>
 </body>
 <script>
-    function GiaTriNhap () {
+    function giaTriNhap () {
         let nhapVao = +document.getElementById('nhập').value;
         let select1 = document.getElementById('select1').value;
         let select2 = document.getElementById('select2').value;
-        if (select1 == select2);{
-            alert(nhapVao);
+        let result;
+        if (select1 == 'vnd');{
+            result = 'result:'+ nhapVao + Đ;
+            else
+            result = 'result:'+ nhapVao + $;
         }
         if (select1 == "vnd" && select2 == "usd");{
-            alert(nhapVao/23000);
+            result = 'result:'+ (nhapVao/23000) + $;
         }
         if (select1 == "usd" && select2 == "vnd");{
-            alert(nhapVao*23000);
+            result = 'result:'+ (nhapVao*23000) + Đ;
         }
-        document.getElementById("result" )
+        alert( document.getElementById("result").innerHTML = result);
     }
-</script>
+</script>0
 </html>
