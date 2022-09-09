@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1413663-3dc1-4d0b-882d-0f24f891778c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu_va_toan_tu/bai_tap/th_luyen_tap_vs_if_else_cau_truc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien_1/th_kiem_tra_nam_nhuan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien_1/th_luyen_tap_vs_cau_truc_if_else_if.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien_1/th_luyen_tap_vs_cau_truc_switch_case.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien_1/th_luyen_tap_vs_toan_tu_3_ngoi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien_1/th_switch_case2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien_1/th_switch_case3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss2_code_org/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ss2_code_org/thuc_hanh/text.txt.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu_va_toan_tu/bai_tap/bt_ung_dung_chuyen_doi_tien_te.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu_va_toan_tu/bai_tap/bt_ung_dung_chuyen_doi_tien_te.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien_1/th_luyen_tap_vs_cau_truc_if_else_if.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien_1/th_luyen_tap_vs_cau_truc_if_else_if.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662622506843</updated>
-      <workItem from="1662622507994" duration="20043000" />
+      <workItem from="1662622507994" duration="25263000" />
     </task>
     <servers />
   </component>
