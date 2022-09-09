@@ -7,41 +7,55 @@
 <body>
 <table>
     <tr>
-        <td><strong>Amount</strong></td>
+        <td for="nhap"><strong>Amount</strong></td>
         <td>From curency</td>
         <td>To curency</td>
     </tr>
     <tr>
-        <td><input type="text" id="nhập"></td>
-        <td><select name=""  id="select1">
+        <td><input type="text" id="nhap"></td>
+        <td>
+            <select name=""  id="select1">
             <option value="vnd">VND</option>
-            <option value="usd">USD</option></td>
-        <td><select name=""  id="select2" >
+            <option value="usd">USD</option>
+            </select>
+        </td>
+        <td>
+            <select name=""  id="select2" >
             <option value="vnd">VND</option>
             <option value="usd" >USD</option>
-        </select></td>
+            </select>
+        </td>
         <td><button onclick="giaTriNhap()">convert</button></td>
     </tr>
 </table>
+<p id="result" style="color: crimson"></p>
 </body>
 <script>
-    function giaTriNhap () {
-        let nhapVao = +document.getElementById('nhập').value;
+    function giaTriNhap() {
+        let nhapVao = +document.getElementById('nhap').value;
         let select1 = document.getElementById('select1').value;
         let select2 = document.getElementById('select2').value;
         let result;
-        if (select1 == 'vnd');{
-            result = 'result:'+ nhapVao + Đ;
-            else
-            result = 'result:'+ nhapVao + $;
+
+        if (select1 == "vnd" && select2 == "usd")
+        {
+            result = "result:" + (nhapVao / 23000)
         }
-        if (select1 == "vnd" && select2 == "usd");{
-            result = 'result:'+ (nhapVao/23000) + $;
+    else
+        if (select1 == "usd" && select2 == "vnd")
+        {
+            result = "result:" + (nhapVao * 23000)
         }
-        if (select1 == "usd" && select2 == "vnd");{
-            result = 'result:'+ (nhapVao*23000) + Đ;
-        }
-        alert( document.getElementById("result").innerHTML = result);
+    else
+        if (select1 = "vnd"){
+            result = "result" + nhapVao;
+    }
+      else
+    {
+        result = "result"+ nhapVao;
+
+    }
+      document.getElementById("result").innerHTML = result;
     }
 </script>
 </html>
