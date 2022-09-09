@@ -7,35 +7,35 @@
 <body>
             <input tyle="number" name="A" placeholder="nhap so thu nhat" id="number1">
             <input tyle ="number" name="B" placeholder="nhap so thu hai" id="number2">
-            <button onclick="phepcong()" id="Addition">(+)</button>
-            <button onclick="pheptru()" id="Subtraction">(-)</button>
-            <button onclick="phepnhan()" id="Multiplication">(x)</button>
-            <button onclick="phepchia()" id="Division">(/)</button>
+            <button onclick="phepCong()" id="Addition">(+)</button>
+            <button onclick="phepTru()" id="Subtraction">(-)</button>
+            <button onclick="phepNhan()" id="Multiplication">(x)</button>
+            <button onclick="phepChia()" id="Division">(/)</button>
 <h1>Result</h1>
 <p id="Result:" style="color:blue"></p>
 </body>
 <script>
-    function phepchia()
+    function phepChia()
     {
         let number2 = document.getElementById("number2").value;
         let Result = "Result Devision : "+ number1/number2;
         document.getElementById("Result").innerHTML=Result;
     }
-    function phepnhan()
+    function phepNhan()
     {
         let number1 = document.getElementById("number1").value;
         let number2 = document.getElementById("number2").value;
         let Result = "Result Multiplication : "+ number1*number2;
         document.getElementById("Result").innerHTML=Result;
     }
-    function pheptru()
+    function phepTru()
     {
         let number1 = document.getElementById("number1").value;
         let number2 = document.getElementById("number2").value;
         let Result = "Result Subtraction : "+ Number(number1-number2);
         document.getElementById("Result").innerHTML= Result;
     }
-    function phepcong()
+    function phepCong()
     {
         let number1 = document.getElementById("number1").value;
         let number2 = document.getElementById("number2").value;
