@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <td colspan="4"><input type="number"></td>
+    </tr>
+    <tr>
+        <td><input type="button" onclick="nhap1()" value="1"></td>
+        <td><input type="button" onclick="nhap2()" value="2"></td>
+        <td><input type="button" onclick="nhap3()" value="3"></td>
+        <td><input type="button" onclick="phepCong()" value="+"></td>
+
+    </tr>
+    <tr>
+        <td><input type="button" onclick="nhap4()" value="4"></td>
+        <td><input type="button" onclick="nhap5()" value="5"></td>
+        <td><input type="button" onclick="nhap6()" value="6"></td>
+        <td><input type="button" onclick="phepTru()" value="-"></td>
+    </tr>
+    <tr>
+        <td><input type="button" onclick="nhap7()" value="7"></td>
+        <td><input type="button" onclick="nhap8()" value="8"></td>
+        <td><input type="button" onclick="nhap9()" value="9"></td>
+        <td><input type="button" onclick="phepNhan()" value="*"></td>
+    </tr>
+    <tr>
+        <td><input type="button" onclick="xoa()" value="C"></td>
+        <td><input type="button" onclick="nhap0()" value="0"></td>
+        <td><input type="button" onclick="bang()" value="="></td>
+        <td><input type="button" onclick="phepChia()" value="/"></td>
+</table>
+</body>
+<script>
+    }
+    function nhap1() {
+        let str = document.getElementById("number").value;
+        document.getElementById("number").value += 1;
+    }
+    function nhap2 () {
+        let str = document.getElementById("number").value;
+        document.getElementById("number").value = str + 2;
+    }
+    function nhap3 () {
+        let str = document.getElementById("number").value;
+        document.getElementById("number").value = str + 3;
+    }
+function phepCong () {
+        let str = document.getElementById("number").value;
+        document.getElementById("number").value = str + "+";
+    }
+function nhap4 () {
+        let str = document.getElementById("number").value;
+        document.getElementById("number").value = str + 4;
+    }
+function nhap5() {
+        let str = document.getElementById("number").value;
+        document.getElementById("number").value = str + 5;
+    }
+function nhap6 () {
+        let str = document.getElementById("number").value;
+        document.getElementById("number").value = str + 6;
+    }
+function phepTru () {
+        let str = document.getElementById("number").value;
+        document.getElementById("number").value = str + "-";
+    }
+function nhap7 () {
+        let str = document.getElementById("number").value;
+        document.getElementById("number").value = str + 7;
+    }
+function nhap8 () {
+        let str = document.getElementById("number").value;
+        document.getElementById("number").value = str + 8;
+    }
+function nhap9 () {
+        let str = document.getElementById("number").value;
+        document.getElementById("number").value = str + 9;
+    }
+function phepNhan () {
+        let str = document.getElementById("number").value;
+        document.getElementById("number").value = str + "*";
+    }
+function xoa () {
+        let str = document.getElementById("number").value;
+        document.getElementById("number").value = str + C;
+    }
+function nhap0 () {
+        let str = document.getElementById("number").value;
+        document.getElementById("number").value = str + 0;
+    }
+function bang () {
+        let str = document.getElementById("number").value;
+        document.getElementById("number").value = str + "=";
+    }
+function phepChia () {
+        let str = document.getElementById("number").value;
+        document.getElementById("number").value = str + "/";
+    }
+</script>
+</html>

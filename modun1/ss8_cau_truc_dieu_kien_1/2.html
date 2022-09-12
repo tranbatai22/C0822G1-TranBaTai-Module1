@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Tính chỉ số BMI</h1>
+<p><b>Nhập chiều cao (m)</b></p>
+<input type="number" id="chieucao">
+<p><b>Nhập cân nặng (kg)</b></p>
+<input type="number" id="cannang">
+<br> <br>
+<button onclick="chiSoBmi()" id="ketqua">Kết quả</button>
+</body>
+<script>
+function chiSoBmi() {
+  let chieuCao = document.getElementById("chieucao").value;
+  let canNang = document.getElementById("cannang").value;
+  let BMI = canNang / ( Math.pow(chieuCao, 2) );
+  let result = "";
+     if (BMI < 18.5){
+         document.getElementById("ketqua").innerHTML = "bạn gầy quá";
+     }else if (18.5 <= BMI < 25.0){
+        document.getElementById("ketqua").innerHTML = "bạn bình thường";
+    }else if (25.0 <= BMI < 30,0){
+         document.getElementById("ketqua").innerHTML = "bạn béo cấp độ 1";
+     }else if (30.0 <= BMI){
+         document.getElementById("ketqua").innerHTML = "giảm cân ngay";
+     }
+}
+</script>
+</html>

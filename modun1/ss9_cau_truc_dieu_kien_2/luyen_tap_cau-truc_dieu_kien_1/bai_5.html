@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let baiKiemTra = +prompt("Nhập điểm bài kiểm tra");
+    let diemGiuaKi = +prompt("Nhập điểm thi giữa kì");
+    let diemCuoiKi = +prompt("Nhập điểm thi cuối kì");
+    let hocLuc = (baiKiemTra + diemCuoiKi + diemGiuaKi) / 3;
+    if (hocLuc >= 8.0){
+        alert("Học lực giỏi");
+    }else if (hocLuc >= 6.5 && hocLuc < 8.0){
+        alert("Học lực khá");
+    }else if (hocLuc >= 5 && hocLuc < 6.5){
+        alert("Học lực trung bình");
+    }else if (hocLuc < 5.0){
+        alert("Học lực kém");
+    }
+</script>
+</html>

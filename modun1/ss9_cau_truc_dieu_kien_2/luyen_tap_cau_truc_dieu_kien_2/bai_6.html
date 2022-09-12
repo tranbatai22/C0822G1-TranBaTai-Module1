@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let giaTriA = +prompt("nhập a");
+    let giaTriB = +prompt("nhập b");
+    let x = -giaTriB/giaTriA;
+    if (giaTriA == 0 && giaTriB == 0){
+        alert("phương trình vô số nghiệm");
+    }else if (giaTriA != 0 && giaTriB == 0){
+        alert("phương trình có nghiệm x=0")
+    }else if (giaTriA == 0 && giaTriB != 0){
+        alert("phương trình vô nghiệm");
+    }else {
+        alert("phương trình có nghiệm x="+x);
+    }
+</script>
+</html>

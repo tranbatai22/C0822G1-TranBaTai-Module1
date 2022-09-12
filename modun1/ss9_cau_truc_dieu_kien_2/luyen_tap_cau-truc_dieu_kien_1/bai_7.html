@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    // Phí thuê bao bắt buộc là 25 nghìn.
+    // 600 đồng cho mỗi gọi của 50 phút đầu tiên.
+    // 400 đồng cho mỗi phút gọi của 150 phút tiếp theo.
+    // 200 đồng cho bất kỳ mỗi phút nào sau 200 phút đầu tiên.
+    let soPhut = +prompt("Nhập số phút đã gọi");
+    const coDinh = 25000;
+    if (soPhut <= 50){
+        alert(+ soPhut * 600 + coDinh);
+    }else if (soPhut <= 150){
+        alert(+ 50 * 600 + (soPhut-50) * 400 + coDinh);
+    }else  if (soPhut <= 200){
+        alert(+ 50 * 600 + (soPhut-50) * 400 + coDinh);
+    }else if (soPhut > 200){
+        alert(+ 50 * 600 + 150 * 400 + (soPhut-200) * 200 + coDinh);
+    }
+</script>
+</html>

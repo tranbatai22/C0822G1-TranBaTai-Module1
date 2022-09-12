@@ -2,14 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1413663-3dc1-4d0b-882d-0f24f891778c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien_1/th_luyen_tap_vs_cau_truc_switch_case.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien_1/th_luyen_tap_vs_toan_tu_3_ngoi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien_1/th_switch_case2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien_1/th_switch_case3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu_va_toan_tu/bai_tap/bt_bien_kieu_du_lieu_va_toan_tu/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu_va_toan_tu/bai_tap/bt_bien_kieu_du_lieu_va_toan_tu/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu_va_toan_tu/bai_tap/bt_bien_kieu_du_lieu_va_toan_tu/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien_1/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bt_may_tinh_don_gian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bt_tinh_chi_so_can_nang_cua_co_the.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bt_tinh_so_ngay_trong_1_thang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau-truc_dieu_kien_1/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau-truc_dieu_kien_1/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau-truc_dieu_kien_1/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau-truc_dieu_kien_1/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau-truc_dieu_kien_1/bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau-truc_dieu_kien_1/bai_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2/bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2/bai_7.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss2_code_org/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ss2_code_org/thuc_hanh/text.txt.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien_1/th_luyen_tap_vs_cau_truc_if_else_if.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien_1/th_luyen_tap_vs_cau_truc_if_else_if.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ss8_cau_truc_dieu_kien_1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -46,11 +61,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\codegym\modun1\ss8_cau_truc_dieu_kien_1" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\codegym\modun1\ss7_bien_kieu_du_lieu_va_toan_tu\bai_tap" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\codegym\modun1\ss9_cau_truc_dieu_kien_2\luyen_tap_cau_truc_dieu_kien_2" />
+      <recent name="D:\codegym\modun1\ss9_cau_truc_dieu_kien_2" />
+      <recent name="D:\codegym\modun1\ss8_cau_truc_dieu_kien_1" />
       <recent name="D:\codegym\modun1\ss7_bien_kieu_du_lieu_va_toan_tu\bai_tap" />
     </key>
   </component>
@@ -64,7 +81,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662622506843</updated>
-      <workItem from="1662622507994" duration="25263000" />
+      <workItem from="1662622507994" duration="33649000" />
+      <workItem from="1662859856040" duration="19732000" />
     </task>
     <servers />
   </component>
@@ -72,14 +90,14 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1662692388564">
+    <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1662860972145">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1662692388564" />
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1662690396753">
+    <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1662860972145" />
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1662951262574">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1662690396753" />
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1662951262574" />
     <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1662704885797">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
