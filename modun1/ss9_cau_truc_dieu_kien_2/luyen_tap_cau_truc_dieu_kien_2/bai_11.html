@@ -7,4 +7,22 @@
 <body>
 
 </body>
+<script>
+    let thuNhap = +prompt("Nhập số tiền thu nhập");
+    if (thuNhap < 5){
+        alert("thuế cá nhân:"+ 0);
+    }else if (thuNhap >= 5 && thuNhap <= 10){
+        alert("thuế cá nhân:"+ (thuNhap * 10) / 100);
+    }else if (thuNhap > 10 && thuNhap <= 18){
+        alert("thuế cá nhân:"+ (thuNhap * 15) / 100);
+    }else if (thuNhap > 18 && thuNhap <= 32){
+        alert("thuế cá nhân:"+ (thuNhap * 20) / 100);
+    }else if (thuNhap > 32 && thuNhap <= 52){
+        alert("thuế cá nhân:"+ (thuNhap * 25) / 100);
+    }else if (thuNhap > 52 && thuNhap <= 80){
+        alert("thuế cá nhân:"+ (thuNhap * 30) / 100);
+    }else if (thuNhap > 80){
+        alert("thuế cá nhân:"+ (thuNhap * 35) / 100);
+    }
+</script>
 </html>

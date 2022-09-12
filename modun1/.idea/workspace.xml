@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1413663-3dc1-4d0b-882d-0f24f891778c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2/bai_10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2/bai_11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2/bai_12.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss2_code_org/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ss2_code_org/thuc_hanh/text.txt.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2/bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2/bai_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2/bai_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2/bai_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2/bai_11.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2/bai_11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2/bai_12.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2/bai_12.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2/bai_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2/bai_9.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662622506843</updated>
       <workItem from="1662622507994" duration="33649000" />
-      <workItem from="1662859856040" duration="28779000" />
+      <workItem from="1662859856040" duration="32014000" />
     </task>
     <servers />
   </component>
