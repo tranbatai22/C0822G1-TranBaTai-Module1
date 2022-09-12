@@ -7,4 +7,18 @@
 <body>
 
 </body>
+<script>
+   let A = +prompt("nhập giá trị a");
+   let B = +prompt("nhập giá trị b");
+   let C = +prompt("nhập giá trị c");
+   let delta = B*B-4*A*C;
+   if(delta < 0){
+       alert("phuong trinh vo nghiem");
+   } else if (delta === 0){
+       alert("phuong tỉnh co nghiem kep x1=x2= :"+(-B/2*A))
+   }
+   else {
+       alert("co 2 nghiem phan biet x1 ="+(-B+Math.sqrt(delta))/(2*A) + "x2 ="+(-B-Math.sqrt(delta))/(2*A));
+   }
+</script>
 </html>

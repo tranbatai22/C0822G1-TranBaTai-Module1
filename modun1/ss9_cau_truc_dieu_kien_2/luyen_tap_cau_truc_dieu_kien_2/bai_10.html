@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<!--  Bậc 1	Cho kWh từ 0 - 50	1.678-->
+<!--  Bậc 2	Cho kWh từ 51 - 100	1.734-->
+<!--  Bậc 3	Cho kWh từ 101 - 200	2.014-->
+<!--  Bậc 4	Cho kWh từ 201 - 300	2.536-->
+<!--  Bậc 5	Cho kWh từ 301 - 400	2.834-->
+<!--  Bậc 6	Cho kWh từ 401 trở lên	2.927-->
+<script>
+    let kWh = +prompt("nhập số điện");
+    if (kWh <= 50 ){
+        alert("tiền điện:"+ kWh*1.678);
+    }else if (kWh<=100){
+        alert("tiền điện:"+ kWh*1.678+(kWh-50)*1.734);
+    }else if (kWh <= 200){
+        alert("tiền điện:"+ kWh*1.678+(kWh-50)*1.734+(kWh-100)*2.014);
+    }else if (kWh <= 300){
+        alert("tiền điện:"+ kWh*1.678+(kWh-50)*1.734+(kWh-100)*2.014+(kWh-200)*2.536);
+    } else if (kWh <= 400){
+        alert("tiền điện:"+ kWh*1.678+(kWh-50)*1.734+(kWh-100)*2.014+(kWh-200)*2.536+(kWh-300)*2.834);
+    } else if (kWh > 400) {
+        alert("tiền điện:"+ kWh*1.678+(kWh-50)*1.734+(kWh-100)*2.014+(kWh-200)*2.536+(kWh-300)*2.834+(kWh-400)*2.927);
+    }
+</script>
+</html>
