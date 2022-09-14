@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    nhietDo = +prompt("Nhập thông tin nhiệt độ của bạn");
+    while (nhietDo < 20 || nhietDo > 100){
+        if (nhietDo < 20){
+            alert("tăng nhiệt độ");
+            nhietDo = +prompt("Nhập thông tin nhiệt độ:");
+        }else if (nhietDo > 100){
+            alert("giảm nhiệt độ:");
+            nhietDo = +prompt("NHập thông tin nhiệt độ:");
+        }
+    }
+    document.write("Nhiệt độ của bạn là:"+ nhietDo);
+
+
+</script>
+</html>
