@@ -2,25 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1413663-3dc1-4d0b-882d-0f24f891778c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss10_cau_truc_vong_lap_1/while_long_nhau.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/bt_hien_thi_cac_so_nguyen_to_dau_tien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/luyen_tap_vong_lap_1/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/luyen_tap_vong_lap_1/bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/luyen_tap_vong_lap_1/bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/luyen_tap_vong_lap_1/bai_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/luyen_tap_vong_lap_1/bai_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/luyen_tap_vong_lap_1/bai_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/luyen_tap_vong_lap_1/bai_8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/luyen_tap_vong_lap_1/bt_dem_so_tu_1_toi_100.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2/bt_dem_so_tu_1_toi_100.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/luyen_tap_vong_lap_2/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/luyen_tap_vong_lap_2/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/luyen_tap_vong_lap_2/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/luyen_tap_vong_lap_2/bai_4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10_cau_truc_vong_lap_1/bang_cuu_chuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/bang_cuu_chuong.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10_cau_truc_vong_lap_1/for_long_nhau.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss10_cau_truc_vong_lap_1/for_long_nhau.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10_cau_truc_vong_lap_1/th.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10_cau_truc_vong_lap_1/th_su_dung_vong_lap_while/bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss10_cau_truc_vong_lap_1/th_su_dung_vong_lap_while/bai_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/luyen_tap_vong_lap_1/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/luyen_tap_vong_lap_1/bai_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/luyen_tap_vong_lap_1/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/luyen_tap_vong_lap_1/bai_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/luyen_tap_vong_lap_1/th.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ss2_code_org/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ss2_code_org/thuc_hanh/text.txt.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2/bai_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2/bai_9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_2/bt_dem_so_tu_1_toi_100.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +99,7 @@
       <workItem from="1662622507994" duration="33649000" />
       <workItem from="1662859856040" duration="32314000" />
       <workItem from="1663032809370" duration="38736000" />
-      <workItem from="1663147082871" duration="1136000" />
+      <workItem from="1663147082871" duration="2922000" />
     </task>
     <servers />
   </component>

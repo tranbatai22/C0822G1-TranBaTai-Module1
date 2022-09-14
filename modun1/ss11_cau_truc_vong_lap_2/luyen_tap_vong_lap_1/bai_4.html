@@ -7,4 +7,19 @@
 <body>
 
 </body>
+<script>
+    let F0=0,F1=1,F=0;
+    fibonacci=" "
+    for(let i=0;i<10;i++){
+        F=F0+F1;
+        F0=F1;
+        F1=F;
+        fibonacci += +F ;
+        if(F%5===0) {
+
+            document.write("so chia het cho 5 dau tien trong day fibo    "+F);
+            break;
+        }
+    }
+</script>
 </html>

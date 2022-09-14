@@ -7,4 +7,18 @@
 <body>
 
 </body>
+<script>
+    let F = 0, F0 = 1, F1 = 0;
+    let fibonacci = "";
+    let tong = 0;
+    for (let i = 0; i < 20; i++) {
+        F = F1 + F0;
+        F0 = F1;
+        F1 = F;
+        fibonacci += F + " ";
+        tong += +F;
+    }
+    document.write(fibonacci + "<br>");
+    document.write("tong cua day fibonacci la  " + tong);
+</script>
 </html>
