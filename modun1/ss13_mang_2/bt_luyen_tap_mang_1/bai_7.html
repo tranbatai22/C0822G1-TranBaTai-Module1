@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kiểm tra xem V có thuộc mảng đã cho không, nếu V thuộc mảng đã cho xoá V khỏi mảng </title>
+</head>
+<body>
+
+</body>
+<script>
+    let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    let number = prompt("Nhập giá trị vào");
+    for (let i = 0; i < array.length; i++) {
+        if (number == array[i]) {
+            array.splice(i, 1);
+            array.push(0);
+        }
+    }
+    document.write(array);
+</script>
+</html>

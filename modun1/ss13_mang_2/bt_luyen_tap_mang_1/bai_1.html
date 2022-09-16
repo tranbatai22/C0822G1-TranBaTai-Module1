@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Hiển thị xem có bao nhiêu số nguyên lớn hơn hoặc bằng 10</title>
+</head>
+<body>
+
+</body>
+<script>
+    let soNguyen = [11, 2, 3, 32, 5, 7, 12, 45, 33, 10];
+    let count = 0;
+    for (let i = 0; i < soNguyen.length; i++) {
+        if (soNguyen[i] >= 10) {
+            count++;
+        }
+    }
+    document.write("Có " + count + " lớn hơn hoặc bằng 10");
+</script>
+</html>

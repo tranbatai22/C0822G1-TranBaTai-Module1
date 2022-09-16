@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+
+    let tiengAnh = ["one","two","three","four","five"];
+    let tiengViet = ["một","hai","ba","bốn","năm"];
+    function findByName() {
+        let keyword = prompt("Nhập vào từ cần tìm");
+        for (let i = 0; i < tiengAnh.length; i++){
+            if (tiengAnh[i] == keyword){
+                return i;
+            }
+        }
+       return -1;
+    }
+    function translate() {
+        let i = findByName();
+        if (i == -1){
+           document.write("Không tìm thấy");
+        }else {
+           document.write("Từ tiếng Việt tương ứng là: " + tiengViet[i])
+        }
+    }
+    translate();
+</script>
+</html>

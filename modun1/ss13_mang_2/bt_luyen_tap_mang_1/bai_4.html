@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đảo ngược các phần tử trong mảng</title>
+</head>
+<body>
+
+</body>
+<script>
+    let soNguyen = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    let giaTriDau = 0;
+    let giaTriCuoi = soNguyen.length - 1;
+    while (giaTriDau < giaTriCuoi) {
+        let a = soNguyen[giaTriDau];
+        soNguyen[giaTriDau] = soNguyen[giaTriCuoi];
+        soNguyen[giaTriCuoi] = a;
+        giaTriDau++;
+        giaTriCuoi--;
+    }
+    document.write(soNguyen);
+</script>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let nhapVao = prompt("nhập giá trị vào");
+    str = nhapVao;
+    let UPPER = "QWERTYUIOPASDFGHJKLZXCVBNM";
+    let LOWER = "qwertyuiopasdfghjklzxcvbnm";
+    let result = [];
+    let i = 0;
+    while (i < str.length) {
+        if (UPPER.indexOf(str[i]) !== -1) {
+            result.push(str[i].toLowerCase());
+        } else if (LOWER.indexOf(str[i]) !== -1) {
+            result.push(str[i].toUpperCase());
+        } else {
+            result.push(str[i]);
+        }
+        i++;
+    }
+    document.write(result.join(''));
+</script>
+</html>
