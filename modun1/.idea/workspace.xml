@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1413663-3dc1-4d0b-882d-0f24f891778c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss13_mang_2/bt_luyen_tap_mang_1/bai_8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang_2/bt_luyen_tap_mang_1/bai_9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang_2/bt_luyen_tap_mang_2/bai_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang_2/bt_luyen_tap_mang_2/bai_6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang_2/bt_luyen_tap_mang_2/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang_2/bt_luyen_tap_mang_2/bai_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang_2/bt_luyen_tap_mang_2/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang_2/bt_luyen_tap_mang_2/bai_5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss2_code_org/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ss2_code_org/thuc_hanh/text.txt.txt" beforeDir="false" />
     </list>
@@ -100,7 +95,7 @@
       <workItem from="1663289846810" duration="24230000" />
       <workItem from="1663379770603" duration="2185000" />
       <workItem from="1663399369682" duration="388000" />
-      <workItem from="1663417301614" duration="3004000" />
+      <workItem from="1663417301614" duration="3320000" />
     </task>
     <servers />
   </component>
