@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let a = [];
+    for ( let i = 0; i < 10; i++){
+        a[i] = +prompt("Nhập các số nguyên:"+ (i+1));
+    }
+    let b = [];
+    for ( let j = 0; j < 10; j++) {
+        b[j] = +prompt("Nhập các số nguyên:" + (j + 1));
+    }
+    let c = a.concat(b);
+    document.write(c);
+</script>
+</html>

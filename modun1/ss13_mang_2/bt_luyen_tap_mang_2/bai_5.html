@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let chuoi1 = prompt("Nhập các giá trị chuỗi 1");
+    let chuoi2 = prompt("Nhạp các giá trị chuỗi 2");
+    let compare = true;
+    if (chuoi1.length !== chuoi2.length) {
+        document.write("2 chuỗi không bằng nhau <br>");
+    } else {
+        for (let i = 0; i < chuoi2.length; i++) {
+                if (chuoi1[i] === chuoi2[i]) {
+                    compare = true;
+                } else {
+                    compare = false;
+                }
+            }
+
+        if (compare === false) {
+            document.write("2 chuỗi không bằng nhau");
+        } else {
+            document.write("2 chuỗi bằng nhau ");
+        }
+    }
+
+
+
+    // let string1 = prompt("enter string 1");
+    // let string2 = prompt("enter string 2");
+    // let compare = true;
+    // document.write("string 1 : " + string1 + " <br>" + "string 2 : " + string2 + " <br>");
+    // if (string1.length !== string2.length) {
+    //     document.write("2 string dissimilarity <br>");
+    // } else {
+    //
+    //     for (let i = 0; i < string2.length; i++) {
+    //         if (string1[i] === string2[i]) {
+    //             compare = true;
+    //         } else {
+    //             compare = false;
+    //         }
+    //     }
+    //
+    //     if (compare === false) {
+    //         document.write("2 string dissimilarity");
+    //     } else {
+    //         document.write("2 string are the same ");
+    //     }
+    // }
+</script>
+</html>
