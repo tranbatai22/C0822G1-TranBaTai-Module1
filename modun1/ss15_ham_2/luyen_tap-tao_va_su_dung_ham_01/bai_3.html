@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo hàm nhận vào hai tham số. Nếu giá trị của tham số thứ nhất lớn hơn tham số thứ hai, hiển thị hộp thoại thông báo cho người dùng. Nếu giá trị của tham số thứ nhất nhỏ hơn hoặc bằng tham số thứ hai, trả về tổng của hai tham số.</title>
+</head>
+<body>
+
+</body>
+<script>
+    let number1 = +prompt("nhập vào 1 số");
+    let number2 = +prompt("nhập vào 1 số");
+    function tong(num1, num2) {
+       if (num1 > num2){
+           alert("hai số không bằng nhau");
+       }else {
+           tong = num1 + num2;
+           return tong;
+       }
+    }
+    tong(number1, number2);
+</script>
+</html>

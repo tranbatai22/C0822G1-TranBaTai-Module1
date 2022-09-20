@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Viết hàm kiểm tra xem ký tự nhập vào có phải là ký tự số không. Nếu là ký tự số hàm trả về true, ngược lại trả về false.</title>
+</head>
+<body>
+
+</body>
+<script>
+    let nhapVao = +prompt("nhập vào ký tự cần kiểm trả");
+    function kiemTraKyTu(texts) {
+        if (texts % 1 === 0){
+            return true;
+        }else {
+            return false;
+        }
+    }
+    alert(kiemTraKyTu(nhapVao));
+</script>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Viết hàm nhận vào 3 số nguyên bất kỳ, trả về số nguyên có giá trị nhỏ nhất.</title>
+</head>
+<body>
+
+</body>
+<script>
+    let number1 = +prompt("nhập vào 1 số");
+    let number2 = +prompt("nhập vào 1 số");
+    let number3 = +prompt("nhập vào 1 số");
+function giaTriNhoNhat(num1, num2, num3) {
+    if (num1 < num2){
+       return  min = num1;
+    }else if (num2 < num3){
+       return  min = num2
+    }else {
+        return min = num3
+    }
+}
+ alert("giá trị nhỏ nhất là "+ giaTriNhoNhat(number1, number2, number3));
+</script>
+</html>

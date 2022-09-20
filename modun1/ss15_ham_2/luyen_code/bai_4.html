@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let inHoa = 'QWERTYUIOPASDFGHJKLZXCVBNM';
+    let inThuong = 'qwertyuiopasdfghjklzxcvbnm';
+    let str = prompt("nhập vào chuỗi cần kiểm tra");
+    function checkString() {
+        let count = 0;
+        let count1 = 0;
+        for (let i = 0; i < str.length; i++) {
+            if (inHoa.indexOf(str[i]) !== -1) {
+                count++;
+            }
+            if (inThuong.indexOf(str[i]) !== -1) {
+                count1++;
+            }
+        }
+        if (count === count1) {
+            alert(true);
+        } else {
+            alert(false);
+        }
+    }
+    checkString(str);
+</script>
+</html>
