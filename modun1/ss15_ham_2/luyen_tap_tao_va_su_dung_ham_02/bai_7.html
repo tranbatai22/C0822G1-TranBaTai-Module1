@@ -8,6 +8,14 @@
 
 </body>
 <script>
-
+    let num1 = +prompt("Nhập Số Thứ Nhất");
+    let num2 = +prompt("Nhập Số Thứ Hai");
+    let array = [];
+    function swap(a, b) {
+        array[0] = a;
+        array[1] = b;
+        return array.reverse().join(" ");
+    }
+    alert(swap(num1,num2));
 </script>
 </html>
