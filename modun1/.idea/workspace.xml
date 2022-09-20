@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1413663-3dc1-4d0b-882d-0f24f891778c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ss15_ham_2/chuyen_doi_ giua_feet_va_meters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_tao_va_su_dung_ham_02/bai_9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_tao_va_su_dung_ham_02/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_tao_va_su_dung_ham_02/bai_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_ham_2/luyen_tap-tao_va_su_dung_ham_01/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap-tao_va_su_dung_ham_01/bai_5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss2_code_org/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ss2_code_org/thuc_hanh/text.txt.txt" beforeDir="false" />
     </list>
@@ -99,7 +101,7 @@
       <workItem from="1663379770603" duration="2185000" />
       <workItem from="1663399369682" duration="388000" />
       <workItem from="1663417301614" duration="4267000" />
-      <workItem from="1663514535477" duration="33457000" />
+      <workItem from="1663514535477" duration="36275000" />
     </task>
     <servers />
   </component>

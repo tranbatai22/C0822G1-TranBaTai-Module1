@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    function check() {
+        let array = [];
+        let nhapVao = prompt("Nhập vào ký tự cần kiểm tra");
+        let count = 0;
+        for (let i = 0; i < 10; i++) {
+             array = prompt("nhập vào một mảng ký tự");
+            if (array[i] == nhapVao) {
+                count++;
+            }
+        }
+        if (count !== 0) {
+            return count;
+        } else {
+            return -1;
+        }
+    }
+
+    alert(check());
+</script>
+</html>

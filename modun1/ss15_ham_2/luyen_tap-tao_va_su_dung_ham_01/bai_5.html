@@ -9,9 +9,22 @@
 </body>
 <script>
     let ngoiSao = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
-    let chomSao = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila"," Ursa Major", "Leo"];
-    function f() {
+    let chomSao = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", " Ursa Major", "Leo"];
+    let str = prompt("nhập tên ngôi sao cần kiểm tra")
 
+    function lookStar(name) {
+        let count = 0;
+        for (let i = 0; i < ngoiSao.length; i++) {
+            if (name == ngoiSao[i]) {
+                alert(ngoiSao[i] + " thuộc chòm sao " + chomSao[i]);
+                count++;
+            }
+        }
+        if (index == 0) {
+            alert("Không tìm thấy kết quả");
+        }
     }
+
+    lookStar(str);
 </script>
 </html>
