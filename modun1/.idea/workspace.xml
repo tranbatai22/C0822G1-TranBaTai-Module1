@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1413663-3dc1-4d0b-882d-0f24f891778c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_code/bai_3_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_code/bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap-tao_va_su_dung_ham_01/bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap-tao_va_su_dung_ham_01/bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap-tao_va_su_dung_ham_01/bai_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_tao_va_su_dung_ham_02/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_tao_va_su_dung_ham_02/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_tao_va_su_dung_ham_02/bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_tao_va_su_dung_ham_02/bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_tao_va_su_dung_ham_02/bai_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_tao_va_su_dung_ham_02/bai_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_tao_va_su_dung_ham_02/bai_7.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/bt_hien_thi_cac_so_nguyen_to_dau_tien.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/bt_hien_thi_cac_so_nguyen_to_dau_tien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_ham/th_chuyen_doi_nhiet_do.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss14_ham/th_chuyen_doi_nhiet_do.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_ham/th_tao_va_goi_ham.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss14_ham/th_tao_va_goi_ham.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_ham/th_tim_gia_tri_nho_nhat_cua_mang.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss14_ham/th_tim_gia_tri_nho_nhat_cua_mang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_ham_2/bt_ham_kiem_tra_so_nguyen_to.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ham_2/bt_ham_kiem_tra_so_nguyen_to.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_ham_2/luyen_tap-tao_va_su_dung_ham_01/bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap-tao_va_su_dung_ham_01/bai_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_ham_2/luyen_tap-tao_va_su_dung_ham_01/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap-tao_va_su_dung_ham_01/bai_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_tao_va_su_dung_ham_02/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_tao_va_su_dung_ham_02/bai_5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss2_code_org/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ss2_code_org/thuc_hanh/text.txt.txt" beforeDir="false" />
     </list>
@@ -117,7 +99,7 @@
       <workItem from="1663379770603" duration="2185000" />
       <workItem from="1663399369682" duration="388000" />
       <workItem from="1663417301614" duration="4267000" />
-      <workItem from="1663514535477" duration="32755000" />
+      <workItem from="1663514535477" duration="33457000" />
     </task>
     <servers />
   </component>
