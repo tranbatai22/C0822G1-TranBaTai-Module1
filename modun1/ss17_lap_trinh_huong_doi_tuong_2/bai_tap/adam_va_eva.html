@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Tao {
+        constructor(weight) {
+            this.weight = weight;
+        }
+        getweight() {
+            return this.weight;
+        }
+        kiemTraTAo() {
+            if(this.weight<1) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+        giamTao() {
+            if(this.kiemTraTAo()){
+                alert("Táo đã ăn hết rồi")
+            }
+            else {
+                this.weight--;
+            }
+        }
+    }
+    class ConNguoi {
+        constructor(ten,gioitinh,cannang) {
+            this.ten = ten;
+            this.gioitinh = gioitinh;
+            this.cannang = cannang;
+        }
+        getcannang() {
+            return this.cannang;
+        }
+        anTao(apple) {
+            if(apple.getweight()>0) {
+                apple.giamTao();
+                this.cannang++;
+            }else {
+                return "Hết táo";
+            }
+        }
+    }
+    let human = new ConNguoi("ADam","Nam",65);
+    let women = new ConNguoi("EVa","nu",45);
+    let tao = new Tao(9);
+    while ( tao.kiemTraTAo() !== true) {
+        document.write("Adam ăn táo"+"<br>");
+        human.anTao(tao);
+        document.write("Quả táo còn");
+        document.write(tao.getweight()+"đơn vị"+"<br>");
+        document.write("Cân nặng là: "+ human.getcannang()+"dv" + "<br>");
+
+        document.write("Eva ăn táo"+"<br>");
+        women.anTao(tao);
+        document.write("Quả táo còn");
+        document.write(tao.getweight()+"đơn vị"+"<br>");
+        document.write("Cân nặng là: "+ women.getcannang()+"dv" + "<br>");
+        if(tao.getweight() === 0 ) {
+            document.write("hết táo");
+        }
+    }
+</script>
+</body>
+</html>
