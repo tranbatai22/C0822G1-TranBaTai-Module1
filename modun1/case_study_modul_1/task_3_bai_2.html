@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Cho 2 mảng A và B chứa số nguyên.
+        Tìm ra một mảng đã được sắp xếp chứa các phần tử xuất hiện trong mảng B nhưng lại không xuất hiện A
+        Chú ý các phần tử giống nhau chỉ tính là 1 lần xuất hiện
+    </title>
+</head>
+<body>
+
+</body>
+<script>
+    let array = [1, 2, 3, 4, 5];
+    let array1 = [1, 2, 3, 6, 7, 4, 5];
+    for (let i = 0; i < array.length; i++) {
+        for (let j = 0; j < array1.length; j++) {
+            if (array[i] == array1[j]) {
+                array1.splice(j, 1);
+            }
+        }
+    }
+    document.write(array1);
+</script>
+</html>
