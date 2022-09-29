@@ -13,14 +13,14 @@
             this.doC = doC;
         }
         getDoCSangDoF() {
-            return (this.doC / 5 * 9) + 32;
+            return this.doC / 5 * 9 + 32;
         }
         getDoCSangDoKevin() {
             return this.doC + 273.15;
         }
     }
-    let Temperature1 = new Temperature(10);
-    document.write("Độ F : " + Temperature1.getDoCSangDoF() + "<br>");
-    document.write("Độ K : " + Temperature1.getDoCSangDoKevin());
+    let temperature1 = new Temperature(25);
+    document.write("Độ F : " + temperature1.getDoCSangDoF() + "<br>");
+    document.write("Độ K : " + temperature1.getDoCSangDoKevin());
 </script>
 </html>

@@ -2,9 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+
 </body>
+<script>
+    let array = [1,2,3,4,5,6,7,8,9,10];
+    let count = 0;
+    let count1 = 0;
+    for (let i = 0; i < array.length; i++){
+        if (array[i] % 2 === 0){
+            count++;
+        }else {
+            count1++;
+        }
+    }
+    if (count == count1){
+        alert("OK");
+    }else {
+        alert("NO");
+    }
+</script>
 </html>

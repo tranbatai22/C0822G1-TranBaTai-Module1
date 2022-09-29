@@ -8,22 +8,35 @@
 
 </body>
 <script>
-    let F = 0, F0 = 0, F1 = 0;
-    let fibonacci = "";
-    for (let i = 0; i < 20; i++) {
-        if (i == 0) {
-            F = 1;
-            F1 = 1;
-            fibonacci += F + " ";
-        } else {
-
-            F = F0 + F1;
-            F0 = F1;
-            F1 = F;
-            fibonacci += F + " ";
-            console.log(i + " = " + F);
-        }
+    let number1 = 0;
+    let number2 = 1;
+    let tong = 0;
+    for (let i = 1; i <= 20; i++){
+        tong = number1 + number2;
+        number1 = number2;
+        number2 = tong;
+       if (number1 % 5 ==0 ){
+           alert(number1);
+           break;
+       }
     }
-    document.write(fibonacci);
+
+
+ // let F = 0, F0 = 0, F1 = 0;
+    // let fibonacci = "";
+    // for (let i = 0; i < 20; i++) {
+    //     if (i == 0) {
+    //         F = 1;
+    //         F1 = 1;
+    //         fibonacci += F + " ";
+    //     } else {
+    //         F = F0 + F1;
+    //         F0 = F1;
+    //         F1 = F;
+    //         fibonacci += F + " ";
+    //         alert(i + " = " + F);
+    //     }
+    // }
+    // document.write(fibonacci);
 </script>
 </html>
