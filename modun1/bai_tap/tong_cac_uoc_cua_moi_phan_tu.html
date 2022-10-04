@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let number = +prompt("Nhập độ dài của mảng");
+    let array = [];
+    let array1 = [];
+    let tong = 0;
+    for (let i = 0; i < number; i++) {
+        array[i] = prompt("nhập phần tử thứ " + (i + 1));
+    }
+    alert(array)
+    for (i = 0; i < array.length; i++) {
+        for (let j = 1; j <= array[i]; j++) {
+            if (array[i] % j === 0) {
+                tong += j;
+            }
+        }
+        array1.push(tong);
+        tong = 0;
+    }
+    alert(array1);
+</script>
+</html>

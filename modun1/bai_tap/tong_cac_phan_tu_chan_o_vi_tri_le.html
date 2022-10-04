@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let n = prompt("nhập độ dài của mảng");
+    let array = [];
+    for (let i = 0; i < n; i++) {
+        array[i] = +prompt("nhập phần tử thứ " + (i + 1));
+    }
+    alert(array)
+    let tong = 0;
+    for (let i = 0; i < array.length; i++) {
+        if (i % 2 === 1 && array[i] % 2 === 0) {
+            tong += array[i];
+        }
+    }
+    alert("Tổng các phần tử chẵn ở vị trí lẻ là " + tong);
+</script>
+</html>

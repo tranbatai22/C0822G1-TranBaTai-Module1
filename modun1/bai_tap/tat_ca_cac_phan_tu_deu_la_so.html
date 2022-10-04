@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    // function kiemTra(arr) {
+    //     for (let i = 0; i < arr.length; i++) {
+    //         if (arr[i] % 2 === 0) {
+    //             if (arr[i] < arr[i + 1]) {
+    //                 return false;
+    //             }
+    //         } else {
+    //             if (arr[i] > arr[i + 1]) {
+    //                 return false;
+    //             }
+    //         }
+    //         if (arr[i] === arr[i + 1]) {
+    //             return false;
+    //         }
+    //     }
+    //     return true;
+    // }
+    // let array = [1, 4, 2, 6, 3, 7];
+    // alert(kiemTra(array));
+    function kiemTra(arr) {
+        // let count = 0;
+        // for (let j = 0; j < arr.length; j++) {
+        //     if (arr[j] % 1 === 0 || arr[j] % 2 === 0) {
+        //         count++;
+        //     }
+        // }
+        // if (count === arr.length){
+        //     return true;
+        // }else {
+        //     return false;
+        // }
+        for (let i = 0; i < arr.length; i++) {
+            if (isNaN(arr[i])) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    let array = [];
+    let number = prompt("nhập độ dài của mảng");
+    for (let i = 0; i < number; i++) {
+        array[i] = prompt("nhập phần tử thứ " + (i + 1));
+    }
+    alert(kiemTra(array));
+</script>
+</html>
