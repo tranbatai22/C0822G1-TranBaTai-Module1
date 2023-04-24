@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let luong = +prompt("Nhập lương");
+    let thue = 0;
+    let tienLuong = 0;
+    if (luong >= 15000000) {
+        thue = luong * 20 / 100;
+    } else if (luong >= 7000000) {
+        thue = luong * 10 / 100;
+    } else {
+        thue = luong * 5 / 100;
+    }
+    tienLuong = luong - thue;
+    alert("Thuế thu nhập là " + thue + " lương ròng " + tienLuong);
+</script>
+</html>

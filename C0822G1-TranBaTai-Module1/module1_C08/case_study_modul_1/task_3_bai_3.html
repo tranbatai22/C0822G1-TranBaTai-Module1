@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cho một danh sách các phân số, hãy tìm chỉ số của phân số lớn nhất (đếm từ 0)
+        Giả định rằng không có các phân số bằng nhau trong tập đầu vào
+    </title>
+</head>
+<body>
+
+</body>
+<script>
+    let numerators = [5, 2, 5];
+    let denominators = [6, 3, 4];
+    let maxFraction = numerators[0] / denominators[0];
+    let index = 0;
+    for (let i = 0; i < numerators.length; i++) {
+        if (numerators[i] / denominators[i] > maxFraction) {
+            maxFraction = numerators[i] / denominators[i];
+            index = i;
+        }
+    }
+    document.write(numerators[index]+"/"+denominators[index] + " là phân số lớn nhất, có chỉ số là " + index);
+</script>
+</html>

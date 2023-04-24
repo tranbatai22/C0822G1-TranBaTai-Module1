@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6cbccc78-b874-414c-9542-4b5073b287b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../review/src/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/View2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/WriteRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review/src/product.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modul2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../modul2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modul2/README.md.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modul2/modul2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modul2_C08/src/SystemTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modul2_C08/src/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/bai_tap/cac_phan_tu_trong_mang_sap_xep_theo_chu_ki.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/bai_tap/cac_phan_tu_trong_mang_sap_xep_theo_chu_ki.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/bai_tap/gia_tri_trung_binh_cua_phan_tu_chia_het_cho5_o_vi_tri_chi_het_cho3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/bai_tap/gia_tri_trung_binh_cua_phan_tu_chia_het_cho5_o_vi_tri_chi_het_cho3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/bai_tap/phan_tu_phia_truoc_moi_phan_tu_deu_la_uoc_cua_chinh_no.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/bai_tap/phan_tu_phia_truoc_moi_phan_tu_deu_la_uoc_cua_chinh_no.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/bai_tap/quan_ly_san_pham.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/bai_tap/quan_ly_san_pham.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/bai_tap/quan_ly_san_pham.js" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/bai_tap/quan_ly_san_pham.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/bai_tap/quan_ly_sinh_vien.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/bai_tap/quan_ly_sinh_vien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/bai_tap/thi_thu/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/bai_tap/thi_thu/bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/bai_tap/thi_thu/bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/bai_tap/thi_thu/bai2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/bai_tap/thi_thu/bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/bai_tap/thi_thu/bai3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/bai_tap/thi_thu/bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/bai_tap/thi_thu/bai4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/bai_tap/thi_thu/bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/bai_tap/thi_thu/bai5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/bai_tap/tong_cac_phan_tu_hai_duong_cheo_cua_mang.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/bai_tap/tong_cac_phan_tu_hai_duong_cheo_cua_mang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/case_study_modul_1/task_2_bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/case_study_modul_1/task_2_bai_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/case_study_modul_1/task_2_bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/case_study_modul_1/task_2_bai_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/case_study_modul_1/task_3_bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/case_study_modul_1/task_3_bai_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/case_study_modul_1/task_3_bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/case_study_modul_1/task_3_bai_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/case_study_modul_1/task_3_bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/case_study_modul_1/task_3_bai_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/case_study_modul_1/task_4_bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/case_study_modul_1/task_4_bai_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/case_study_modul_1/task_4_bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/case_study_modul_1/task_4_bai_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/case_study_modul_1/task_4_bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/case_study_modul_1/task_4_bai_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/case_study_modul_1/task_5_bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/case_study_modul_1/task_5_bai_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/case_study_modul_1/task_5_bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/case_study_modul_1/task_5_bai_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/case_study_modul_1/task_5_bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/case_study_modul_1/task_5_bai_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/ss11_cau_truc_vong_lap_2/luyen_tap_vong_lap_1/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/ss11_cau_truc_vong_lap_2/luyen_tap_vong_lap_1/bai_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/ss15_ham_2/luyen_tap_tao_va_su_dung_ham_02/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/ss15_ham_2/luyen_tap_tao_va_su_dung_ham_02/bai_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/ss2_code_org" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/ss2_code_org" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/thi_modul_1/bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/thi_modul_1/bai_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/thi_modul_1/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/thi_modul_1/bai_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modun1/thi_modul_1/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modun1/thi_modul_1/bai_3.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2GsxPm5DWRCzT3VCgxHmNqEBV2h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="C:/untitled" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6cbccc78-b874-414c-9542-4b5073b287b3" name="Default Changelist" comment="" />
+      <created>1667191070783</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667191070783</updated>
+      <workItem from="1667191072031" duration="22000" />
+      <workItem from="1667918561915" duration="18000" />
+      <workItem from="1668004405357" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1667191074934">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.816@0.0.1536.816" timestamp="1667191074934" />
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1668004429176">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1668004429176" />
+    <state x="209" y="29" key="new project wizard" timestamp="1668004416354">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="209" y="29" key="new project wizard/0.0.1536.816@0.0.1536.816" timestamp="1668004416354" />
+  </component>
+</project>

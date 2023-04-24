@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    function find(x) {
+        let array = x.toString().split();
+        let index = "/";
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] === index) {
+                index = i;
+            }
+        }
+        if (index === array.length - 1) {
+            return "không phải là phần số";
+        }else {
+            for (let i = 0; i < index ; i++) {
+                if (isNaN(array[i])){
+                    return "không phải là phần số";
+                }
+            }
+            for (let i = 0; i > index ; i++) {
+                if (isNaN([array[i]])){
+                    return "không phải là phần số";
+                }
+            }
+        }
+        return "phải";
+    }
+
+    let number = +prompt("nhập đối số cho x");
+    alert(find(number));
+</script>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let array = [];
+    let m = +prompt("nhập m")
+    let n = +prompt("nhập n")
+    let size = m*n;
+    let number = +prompt("nhập độ dài mảng con");
+    for (let i = 0; i < size; i++){
+        array[i] = [];
+        for (let j = 0; j < number; j++){
+            array[i][j] = +prompt("nhập phần tử thứ "+ j + " của mảng con "+i );
+        }
+    }
+    alert(array);
+    let tong = 0;
+    for (let i = 0; i < array.length; i++){
+        for (let j = 0; j < array[i].length; j++){
+            if(i === j || (i + j === size-1)){
+                tong += array[i][j];
+            }
+        }
+    }
+    document.write(tong);
+</script>
+</html>

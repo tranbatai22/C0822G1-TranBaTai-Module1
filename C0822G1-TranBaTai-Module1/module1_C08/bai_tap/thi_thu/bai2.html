@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    function checkTriangle(x, y, z) {
+        let dieuKien1 = x + y > z && x + z > y && y + z > x && x > 0 && y > 0 && z > 0;
+        if (dieuKien1) {
+            let dieuKien2 = (x * x) + (y * y) === (z * z) || (x * x) + (z * z) === (y * y) || (y * y) + (z * z) === (x * x);
+            if (dieuKien2) {
+                alert("là 3 cạnh của tam giác vuông");
+            } else {
+                alert("chỉ là 3 cạnh của tam giác");
+            }
+        } else {
+            alert("không phải là cạnh của tam giác");
+        }
+    }
+
+    let x = +prompt("nhập cạnh x");
+    let y = +prompt("nhập cạnh y");
+    let z = +prompt("nhập cạnh z");
+    checkTriangle(x, y, z);
+</script>
+</html>

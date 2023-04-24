@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let s1 = "aabcc";
+    let mang1 = s1.split("");
+    let s2 = "adcaa";
+    let mang2 = s2.split("");
+    let count = 0;
+    for (let i = 0; i < mang1.length; i++) {
+        for (let j = 0; j < mang2.length; j++) {
+            if (mang1[i] === mang2[j]) {
+                mang1.splice(i,1);
+                mang2.splice(j,1);
+                i--;
+                j--;
+                count++;
+            }
+        }
+    }
+    alert(count);
+</script>
+</html>

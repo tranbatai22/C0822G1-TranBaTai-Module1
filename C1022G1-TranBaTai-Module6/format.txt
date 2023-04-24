@@ -1,0 +1,42 @@
+
+màu chủ đạo:  xanh #183661 và trắng
+nút xóa : <button type="button" class="btn btn-outline-danger"><i class="bi bi-trash-fill"></i></button> 						
+nút thêm mới : <button type="button" class="btn btn-outline-primary">+ Thêm mới</button>
+nút lưu :  <button type="button" class="btn btn-outline-primary"><i class="bi bi-check2-circle"></i></button>
+nút chỉnh sủa : <button type="button" class="btn btn-outline-primary"><i class="bi bi-pencil-square"></i></button>
+nút hủy : <button type="button" class="btn btn-outline-secondary"><i class="bi bi-arrow-return-left"></i></button>
+
+
+bảng : 
+<table class="table table-striped" >
+    <thead>
+    <tr style="background-color: #183661 ; color: white" >
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+    </tr>
+    <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+    </tr>
+    <tr>
+        <th scope="row">3</th>
+        <td colspan="2">Larry the Bird</td>
+        <td>@twitter</td>
+    </tr>
+    </tbody>
+</table>
+
+title : in đậm hết 
+

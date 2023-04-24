@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let n = +prompt("nhập độ dài của mảng");
+    let array = [];
+    for (let i = 0; i < n; i++) {
+        array[i] = +prompt("nhập phần tử thứ " + (i + 1));
+    }
+    alert(array);
+    let count = 0;
+    for (let i = 0; i < array.length; i++) {
+        if (array[i + 1] - array[i] === array[1] - array[0]) {
+            count++;
+        }
+    }
+    if (count === array.length - 1) {
+        alert("OK");
+    } else {
+        alert("NO");
+    }
+</script>
+</html>

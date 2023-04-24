@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    // let count = 0;
+    // let countSNT = 0;
+    //
+    // function lietKe(array) {
+    //     for (let i = 0; i < array.length; i++) {
+    //         for (let j = 0; j < array[i].length; j++) {
+    //             for (let x = 1; x <= array[i][j].length; x++) {
+    //                 if (array[i][j] % x === 0) {
+    //                     count++;
+    //                 }
+    //             }
+    //             if (count === 2) {
+    //                 document.write(array[i][j] + " <br>");
+    //                 countSNT++;
+    //             }
+    //         }
+    //         count = 0;
+    //     }
+    //     alert(countSNT);
+    // }
+    //
+    // let array1 = [[2, 3, 5], [7, 11, 13]];
+    // lietKe(array1);
+    //
+    let array1 = [];
+    let number = +prompt("nhập độ dài của mảng cha");
+    let number2 = +prompt("nhập độ rộng của mảng con");
+    for (let i = 0; i < number; i++) {
+        array1[i] = [];
+        for (let j = 0; j < number2; j++) {
+            array1[i][j] = +prompt("nhập phần tử thứ " + j + " của mảng con thứ " + i);
+
+        }
+    }
+    function kiemTra(arr) {
+        if (arr < 2) {
+            return false;
+        }
+        for (let i = 2; i < arr; i++) {
+            if (arr % i === 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+    let count = 0;
+    for (let i = 0; i < array1.length; i++) {
+        for (let j = 0; j < array1[i].length; j++) {
+            if (kiemTra(array1[i][j])) {
+                document.write(array1[i][j] + "<br>");
+                count++;
+            }
+        }
+    }
+    document.write("có " + count + " số nguyên tố");
+</script>
+</html>

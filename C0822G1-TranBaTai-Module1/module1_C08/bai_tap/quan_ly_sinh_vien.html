@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="id" placeholder="nhập id"><br>
+<input type="text" id="name" placeholder="nhập tên"><br>
+<input type="text" id="email" placeholder="nhập email"><br>
+<button onclick="addNewStudent()">Add New Student</button>
+<p id="display"></p>
+<script>
+    class Student {
+        constructor(id, name, email) {
+            this.id = id;
+            this.name = name;
+            this.email = email;
+        }
+
+        setId(id) {
+            this.id = id;
+        }
+
+        setName(name) {
+            this.name = name;
+        }
+
+        setEmail(email) {
+            this.email = email;
+        }
+
+        getId() {
+            return this.id;
+        }
+
+        getName() {
+            return this.name;
+        }
+
+        getEmail() {
+            return this.email;
+        }
+    }
+
+    let studentList = [];
+    let student1 = new Student(1, "taiem", "taiem22@gmail.com");
+    let student2 = new Student(2, "taiem", "taiem22@gmail.com");
+    let student3 = new Student(3, "taiem", "taiem22@gmail.com");
+
+    studentList.push(student1, student2, student3);
+    display(studentList);
+
+    function addNewStudent() {
+        let id = document.getElementById("id").value;
+        let name = document.getElementById("name").value;
+        let email = document.getElementById("email").value;
+        let student = new Student(id, name, email);
+        studentList.push(student);
+        document.getElementById("id").value = "";
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        display(studentList);
+
+    }
+
+    function deleteStudent(id) {
+        let conf = confirm("bạn có muốn xoá sinh viên tên : ", studentList[id].getName() + "???");
+        if (conf) {
+            studentList.splice(id, 1);
+        }
+        display(studentList);
+    }
+
+    function display(list) {
+        let data = '<table border="1" style="border-collapse: collapse">\n' +
+            '    <tr>\n' +
+            '        <th>STT</th>\n' +
+            '        <th>Id</th>\n' +
+            '        <th>Name</th>\n' +
+            '        <th>Email</th>\n' +
+            '        <th>Edit</th>\n' +
+            '        <th>Delete</th>\n' +
+            '    </tr>';
+        for (let i = 0; i < list.length; i++) {
+            data += ' <tr>\n' +
+                '        <td>' + (i + 1) + '</td>\n' +
+                '        <td>' + list[i].getId() + '</td>\n' +
+                '        <td>' + list[i].getName() + '</td>\n' +
+                '        <td>' + list[i].getEmail() + '</td>\n' +
+                '        <td><input type="button"  value="edit" onclick=""></td>\n' +
+                '        <td><input type="button"  value="delete" onclick="deleteStudent(' + i + ')"></td>\n' +
+                '    </tr>';
+        }
+        data += '</table>';
+        document.getElementById("display").innerHTML = data;
+    }
+</script>
+</body>
+</html>

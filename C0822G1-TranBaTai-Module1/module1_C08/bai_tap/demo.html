@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    // let n = +prompt("nhập độ dài n của mảng");
+    // let array = [];
+    // for (let i = 0; i < n; i++) {
+    //     array[i] = +prompt("nhập phần tử thứ " + (i + 1));
+    // }
+    // alert("mảng vừa nhập là " + array);
+    // let count = 0;
+    // for (let i = 0; i < parseInt(array.length / 2); i++) {
+    //     for (let j = array.length - 1; j >= parseInt(array.length / 2); j--) {
+    //         if (array[i] === array[j]) {
+    //             count++;
+    //         }
+    //     }
+    // }
+    // if (count === parseInt(array.length/2)){
+    //     alert("OK");
+    // }else {
+    //     alert("NO");
+    // }
+
+    let n = +prompt("Nhập độ dài n của mảng");
+    let array = [];
+    for (let i = 0; i < n; i++){
+        array[i] = +prompt("Nhập phần tử thứ "+(i+1));
+    }
+    alert("Mảng vừa nhập là "+ array);
+    let count = 0;
+        for (let i = 0; i < array.length ; i++) {
+        if (array[i+1] - array[i] === array[1] - array[0]){
+            count++;
+        }
+    }
+    if (count === array.length-1){
+        alert("OK");
+    }else {
+        alert("NO");
+    }
+</script>
+</html>

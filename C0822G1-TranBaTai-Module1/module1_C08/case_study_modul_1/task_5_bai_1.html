@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let array = []
+    let m = +prompt("nhập m ");
+    let n = +prompt("nhập n ");
+    let size = m * n;
+    let tong = 0;
+
+    function tinhTong() {
+        for (let i = 0; i < size; i++) {
+            array[i] = +prompt("Nhập phần tử thứ " + (i + 1));
+        }
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] % 2 == 0) {
+                tong += array[i];
+            }
+        }
+        document.write("Tổng các phần tử chẵn có trong mảng là " + tong);
+    }
+
+
+    tinhTong();
+
+</script>
+</html>

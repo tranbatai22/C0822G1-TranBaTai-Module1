@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    function kiemTra(number1, number2) {
+        let tong1 = 0;
+        for (let i = 1; i < number1; i++) {
+            if (number1 % i === 0) {
+                tong1 += i;
+            }
+        }
+        let tong2 = 0;
+        for (let i = 1; i < number2; i++) {
+            if (number2 % i === 0) {
+                tong2 += i;
+            }
+        }
+        if (tong1 === number2 && tong2 === number1) {
+            return "True";
+        } else {
+            return "False";
+        }
+    }
+
+    let nguyenDuong1 = +prompt("Nhập số đầu tiên");
+    let nguyenDuong2 = +prompt("Nhập số thứ hai");
+    alert(kiemTra(nguyenDuong1, nguyenDuong2));
+</script>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Viết chương trình kiểm tra một ký tự trong bảng chữ cái tiếng anh là nguyên âm hay phụ âm.
+        Ký tự là bất kỳ được nhập từ bàn phím.
+        Các ký tự nguyên âm bao gồm: 'o', 'u', 'i', 'a', 'e' hoặc 'O', 'U', 'I', 'A', 'E'
+    </title>
+</head>
+<body>
+
+</body>
+<script>
+    let kyTu = prompt("nhập vào ký tự cần kiểm tra");
+    switch (kyTu) {
+        case 'u':
+        case 'e':
+        case 'o':
+        case 'a':
+        case 'i':
+        case 'U':
+        case 'E':
+        case 'O':
+        case 'A':
+        case 'I':
+            alert(kyTu + " là ký tự nguyên âm");
+            break;
+            default: alert(kyTu + " là ký tự phụ âm");
+    }
+</script>
+</html>

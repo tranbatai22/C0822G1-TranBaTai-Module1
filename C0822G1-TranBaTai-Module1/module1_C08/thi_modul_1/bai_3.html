@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="maso" placeholder="nhập mã số"><br>
+<input type="text" id="ten" placeholder="nhập tên"><br>
+<input type="text" id="namxuatban" placeholder="nhập năm xuất bản"><br>
+<input type="text" id="soquyen" placeholder="nhập số quyển"><br>
+<input type="text" id="tinhtrang" placeholder="nhập tình trạng"><br>
+<button onclick="themSach()">Thêm Sách Đã Có</button>
+<button onclick="themSach()">Thêm Sách Mới</button>
+<button onclick="themSach()">Mượn Sách</button>
+<button onclick="themSach()">Hiển Thị Sách Nhiều Nhất</button>
+<p id="display"></p>
+<script>
+    class QuanLySach {
+        constructor(maSo, ten, namXuatBan, soQuyen, tinhTrang) {
+            this.maSo = maSo;
+            this.ten = ten;
+            this.namXuatBan = namXuatBan;
+            this.soQuyen = soQuyen;
+            this.tinhTrang = tinhTrang;
+        }
+
+        setMaSo(maSo) {
+            this.maSo = maSo;
+        }
+
+        setTen(ten) {
+            this.ten = ten;
+        }
+
+        setNamXuatBan(namXuatBan) {
+            this.namXuatBan = namXuatBan;
+        }
+
+        setSoQuyen(soQuyen) {
+            this.soQuyen = soQuyen;
+        }
+
+        setTinhTrang(tinhTrang) {
+            this.tinhTrang = tinhTrang;
+        }
+
+        getMaSo() {
+            return this.maSo;
+        }
+
+        getTen() {
+            return this.ten;
+        }
+
+        getNamXuatBan() {
+            return this.namXuatBan;
+        }
+
+        getSoQuyen() {
+            return this.soQuyen;
+        }
+
+        getTinhTrang() {
+            return this.tinhTrang;
+        }
+    }
+
+    let listQuanLySach = [];
+    let sach1 = new QuanLySach(12345, "Toán", 2000, 3, "True");
+    let sach2 = new QuanLySach(23456, "Văn", 1998, 4, "True");
+    let sach3 = new QuanLySach(37456, "Tiếng Anh", 1999, 5, "False");
+
+    listQuanLySach.push(sach1, sach2, sach3);
+    display(listQuanLySach);
+
+    function themSach() {
+        let maSo = document.getElementById("maso").value;
+        let ten = document.getElementById("ten").value;
+        let namXuatBan = document.getElementById("namxuatban").value;
+        let soQuyen = document.getElementById("soquyen").value;
+        let tinhTrang = document.getElementById("tinhtrang").value;
+        let sach = new QuanLySach(maSo, ten, namXuatBan, soQuyen, tinhTrang);
+        listQuanLySach.push(sach);
+        document.getElementById("maso").value = "";
+        document.getElementById("ten").value = "";
+        document.getElementById("namxuatban").value = "";
+        document.getElementById("soquyen").value = "";
+        document.getElementById("tinhtrang").value = "";
+        display(listQuanLySach);
+
+    }
+
+    function display(list) {
+        let data = '<table border="1" style="border-collapse: collapse">\n' +
+            '    <tr>\n' +
+            '        <th>Mã Số</th>\n' +
+            '        <th>Tên Sách</th>\n' +
+            '        <th>Năm Xuất Bản</th>\n' +
+            '        <th>SỐ Quyển</th>\n' +
+            '        <th>Tình Trạng</th>\n' +
+            '    </tr>';
+        for (let i = 0; i < list.length; i++) {
+            data += ' <tr>\n' +
+                '        <td>' + list[i].getMaSo() + '</td>\n' +
+                '        <td>' + list[i].getTen() + '</td>\n' +
+                '        <td>' + list[i].getNamXuatBan() + '</td>\n' +
+                '        <td>' + list[i].getSoQuyen() + '</td>\n' +
+                '        <td>' + list[i].getTinhTrang() + '</td>\n' +
+                '    </tr>';
+        }
+        data += '</table>';
+        document.getElementById("display").innerHTML = data;
+    }
+</script>
+</body>
+</html>

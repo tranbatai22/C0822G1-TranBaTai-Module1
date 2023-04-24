@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let number = prompt("nhập chuỗi bất kỳ");
+    let array = [];
+    for (let i = 0; i < number.length; i++) {
+        // for (let j = i; j < mang.length; j++) {
+        //     if (array[i] === array[j + 1]) {
+        //         array.splice(array[j + 1], 1);
+        //         j--;
+        //     }
+        // }
+        if (!array.includes(array.charAt(i))){
+            array.push(array.charAt(i));
+        }
+    }
+    alert("Số kí tự có trong chuỗi là: "+array.length);
+</script>
+</html>

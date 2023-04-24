@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let array = [];
+    for (let i = 0; i < 10; i++) {
+        let number = +prompt("nhập phần tử thứ " + (i + 1));
+        array.push(number);
+    }
+    document.write("Mảng số nguyên nhập từ bàn phím là "+array+"<br>");
+    let tong = 0;
+    let trungBinh;
+    let array1 = [];
+    for (let i = 0; i < array.length; i++) {
+        if (i % 3 === 0 && array[i] % 5 === 0) {
+            tong += array[i];
+            array1.push(array[i]);
+        }
+    }
+    document.write("Các phần tử chia hết cho 5 ở vị trí chia hết cho 3 là "+array1+"<br>");
+    trungBinh = tong / array1.length;
+    document.write("Giá trị trung bình của các phần tử chia hết cho 5 là "+trungBinh);
+</script>
+</html>

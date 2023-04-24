@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let n;
+    do {
+        n = +prompt("Nhập độ dài của mảng");
+    } while (n > 50);
+    let array = [];
+    for (let i = 0; i < n; i++) {
+        array[i] = +prompt("nhập phần tử thứ " + (i + 1));
+    }
+    alert("Mảng vừa nhập là " + array);
+    let count = 0;
+    let tong = 0;
+    let trungBinh;
+    for (let i = 0; i < array.length; i++) {
+        if (i % 2 === 0 && array[i] % 2 === 1) {
+            count++;
+            tong += array[i];
+        }
+    }
+    trungBinh = tong / count;
+    alert("Trung bình cộng của các số lẻ ở vị trí chẵn là " + trungBinh);
+
+</script>
+</html>
